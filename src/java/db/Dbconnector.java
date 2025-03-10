@@ -22,7 +22,7 @@ public class Dbconnector
             Class.forName("com.mysql.jdbc.Driver");
             System.out.println("Driver Loaded");
             
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/db33","root","root");
+            con = DriverManager.getConnection("connection String");
             System.out.println("Connected");
             
             st = con.createStatement();            
